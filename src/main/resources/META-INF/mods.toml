@@ -35,9 +35,9 @@ This is my first real mod that adds a Cookbook to Farmers Delight
     versionRange="[1.16.4-50,)"
     side="BOTH"
 
-#[[dependencies.fd_cookbook]]
-#    modId = "farmersdelight"
-#    mandatory = true
-#    versionRange = "[1.16.3-0.3.2,)"
-#    ordering = "AFTER"
-#    side = "BOTH"
+[[dependencies.fd_cookbook]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.16.3-0.3.2,)"
+    ordering = "AFTER"
+    side = "BOTH"

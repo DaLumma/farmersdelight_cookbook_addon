@@ -1,0 +1,37 @@
+{
+  "bookGuiScale": 3,
+  "clickedVisualize": false,
+  "bookData": {
+    "fd_cookbook:cook_book": {
+      "viewedEntries": [
+        "fd_cookbook:getting_started/getting_started_entry",
+        "fd_cookbook:getting_started/new_crops",
+        "fd_cookbook:getting_started/wild_crops"
+      ],
+      "bookmarks": [
+        {
+          "entry": "fd_cookbook:getting_started/getting_started_entry",
+          "page": 0
+        }
+      ],
+      "history": [
+        "fd_cookbook:getting_started/wild_crops",
+        "fd_cookbook:getting_started/new_crops",
+        "fd_cookbook:getting_started/getting_started_entry"
+      ],
+      "completedManualQuests": []
+    },
+    "fd_cookbook:testbook1": {
+      "viewedEntries": [
+        "fd_cookbook:intro/smelttest",
+        "fd_cookbook:intro/preface"
+      ],
+      "bookmarks": [],
+      "history": [
+        "fd_cookbook:intro/preface",
+        "fd_cookbook:intro/smelttest"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

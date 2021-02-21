@@ -1,0 +1,32 @@
+{
+  "name": "Pies and Sweets",
+  "icon": "farmersdelight:chocolate_pie",
+  "category": "recipes",
+  "sortnum": "5",
+  "pages": [
+    {
+      "type": "cooking_pot",
+      "foodname": "Rabbit Stew",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:rabbit,minecraft:cooked_rabbit",
+      "item3": "minecraft:carrot",
+      "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
+      "finalitem": "minecraft:rabbit_stew",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x5",
+      "saturation_amount": "x6",
+      "effect": "none"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Mushroom Stew",
+      "item1": "minecraft:brown_mushroom",
+      "item2": "minecraft:red_mushroom",
+      "finalitem": "minecraft:mushroom_stew",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x3",
+      "saturation_amount": "x3,5",
+      "effect": "none"
+    }
+  ]
+}

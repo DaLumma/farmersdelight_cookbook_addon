@@ -1,8 +1,8 @@
 {
-  "name": "Rabbit Stew",
-  "icon": "minecraft:rabbit_stew",
+  "name": "Sandwiches",
+  "icon": "farmersdelight:hamburger",
   "category": "recipes",
-  "sortnum": "2",
+  "sortnum": "3",
   "pages": [
     {
       "type": "cooking_pot",
@@ -13,7 +13,9 @@
       "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
       "finalitem": "minecraft:rabbit_stew",
       "container": "minecraft:bowl",
-      "description": "Here comes the$(br)description of the food"
+      "hunger_amount": "x5",
+      "saturation_amount": "x6",
+      "effect": "none"
     }
   ]
 }

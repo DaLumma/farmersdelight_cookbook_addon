@@ -1,0 +1,21 @@
+{
+  "name": "Animal Foods",
+  "icon": "farmersdelight:dog_food",
+  "category": "recipes",
+  "sortnum": "8",
+  "pages": [
+    {
+      "type": "cooking_pot",
+      "foodname": "Rabbit Stew",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:rabbit,minecraft:cooked_rabbit",
+      "item3": "minecraft:carrot",
+      "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
+      "finalitem": "minecraft:rabbit_stew",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x5",
+      "saturation_amount": "x6",
+      "effect": "none"
+    }
+  ]
+}

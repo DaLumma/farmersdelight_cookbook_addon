@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    "result": {
+      "item": "fd_cookbook:cook_book"
+    }
+  }

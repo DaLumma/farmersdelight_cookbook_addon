@@ -1,0 +1,19 @@
+{
+  "name": "Rabbit Stew",
+  "icon": "minecraft:rabbit_stew",
+  "category": "recipes",
+  "sortnum": "2",
+  "pages": [
+    {
+      "type": "cooking_pot",
+      "foodname": "Rabbit Stew",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:rabbit,minecraft:cooked_rabbit",
+      "item3": "minecraft:carrot",
+      "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
+      "finalitem": "minecraft:rabbit_stew",
+      "container": "minecraft:bowl",
+      "description": "Here comes the$(br)description of$(br)the food"
+    }
+  ]
+}

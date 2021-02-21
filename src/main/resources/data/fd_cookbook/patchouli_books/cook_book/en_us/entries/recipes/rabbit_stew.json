@@ -13,7 +13,7 @@
       "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
       "finalitem": "minecraft:rabbit_stew",
       "container": "minecraft:bowl",
-      "description": "Here comes the$(br)description of$(br)the food"
+      "description": "Here comes the$(br)description of the food"
     }
   ]
 }

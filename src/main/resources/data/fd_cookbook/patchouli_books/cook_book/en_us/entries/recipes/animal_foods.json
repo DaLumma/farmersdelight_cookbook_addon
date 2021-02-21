@@ -6,16 +6,28 @@
   "pages": [
     {
       "type": "cooking_pot",
-      "foodname": "Rabbit Stew",
-      "item1": "minecraft:baked_potato",
-      "item2": "minecraft:rabbit,minecraft:cooked_rabbit",
-      "item3": "minecraft:carrot",
-      "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
-      "finalitem": "minecraft:rabbit_stew",
+      "foodname": "Dog Food",
+      "item1": "minecraft:rotten_flesh",
+      "item2": "minecraft:bone_meal",
+      "item3": "minecraft:mutton,minecraft:rabbit,minecraft:chicken,farmersdelight:chicken_cuts",
+      "item4": "farmersdelight:rice",
+      "finalitem": "farmersdelight:dog_food",
       "container": "minecraft:bowl",
+      "hunger_amount": "x2",
+      "saturation_amount": "x0,5",
+      "effect": "When fed to a Dog:$(br)$(li)Speed(5:00)$(br)$(li)Strength(5:00)$(br)$(li)Resistance(5:00)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Horse Food",
+      "item1": "farmersdelight:rice_bale,minecraft:hay_block",
+      "item2": "minecraft:apple,",
+      "item4": "minecraft:apple",
+      "item5": "minecraft:golden_carrot",
+      "finalitem": "farmersdelight",
       "hunger_amount": "x5",
       "saturation_amount": "x6",
-      "effect": "none"
+      "effect": "When fed to a tamed mount:$(br)$(li)Speed II(5:00)$(br)$(li)Jump Boost(5:00)"
     }
   ]
 }

@@ -30,7 +30,7 @@
       "finalitem": "farmersdelight:fruit_salad",
       "hunger_amount": "x3",
       "saturation_amount": "x3,5",
-      "effect": "Regeneraion(0:10)"
+      "effect": "Regeneration(0:10)"
     },
     {
       "type": "crafting_table",

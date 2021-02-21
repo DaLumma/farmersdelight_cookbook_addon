@@ -1,6 +1,6 @@
 {
   "name": "New Crops",
-  "icon": "farmersdelight:wild_carrots",
+  "icon": "farmersdelight:tomato_vines",
   "category": "basics",
   "sortnum": "0",
   "pages": [
@@ -12,6 +12,7 @@
     {
       "type": "image",
       "images": ["fd_cookbook:textures/gui/cookbook/new_crops.png"],
+      "text": "In this picture you can see the Item the Crop is planted with and the crop itself",
       "border": true
     }
   ]

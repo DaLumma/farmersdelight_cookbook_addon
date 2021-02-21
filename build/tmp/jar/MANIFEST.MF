@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: farmersdelight_cookbook_addon
-Implementation-Version: 1.0
-Specification-Vendor: fd_cookbooksareus
-Specification-Title: fd_cookbook
-Implementation-Timestamp: 2021-02-20T20:42:11+0100
-Specification-Version: 0.1
-Implementation-Vendor: fd_cookbooksareus
-

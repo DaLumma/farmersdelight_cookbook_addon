@@ -2,7 +2,7 @@
   "name": "Drinks",
   "icon": "farmersdelight:hot_cocoa",
   "category": "recipes",
-  "sortnum": "7",
+  "sortnum": "8",
   "pages": [
     {
       "type": "crafting_table_nofood",
@@ -13,7 +13,6 @@
       "item5": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:milk_bottle",
       "amount": "3",
-      "container": "minecraft:bowl",
       "info": "none"
     },
     {

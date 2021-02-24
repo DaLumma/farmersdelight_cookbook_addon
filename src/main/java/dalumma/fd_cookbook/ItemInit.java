@@ -18,6 +18,5 @@ public class ItemInit {
             .rarity(Rarity.COMMON)));
 
     //Block Items
-    public static final RegistryObject<BlockItem> cookbook_block = Items.register("cookbook_block", () -> new BlockItem(BlockInit.COOKBOOK_BLOCK.get(), new Item.Properties()
-            .group(ItemGroup.MISC)));
+//    public static final RegistryObject<BlockItem> cookbook_block = Items.register("cookbook_block", () -> new BlockItem(BlockInit.COOKBOOK_BLOCK.get(), new Item.Properties().group(ItemGroup.MISC)));
 }

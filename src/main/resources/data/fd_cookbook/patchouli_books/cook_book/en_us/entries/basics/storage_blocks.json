@@ -1,0 +1,11 @@
+{
+  "name": "Knife's",
+  "icon": "farmersdelight:onion_crate",
+  "category": "basics",
+  "sortnum": "2",
+  "pages": [
+    {
+      "type": "crafting_table_nofood"
+    }
+  ]
+}

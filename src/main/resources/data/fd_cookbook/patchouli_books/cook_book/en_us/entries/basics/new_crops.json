@@ -1,6 +1,6 @@
 {
   "name": "New Crops",
-  "icon": "farmersdelight:textures/",
+  "icon": "farmersdelight:textures/block/tomatoes_stage4.png",
   "category": "basics",
   "sortnum": "0",
   "pages": [

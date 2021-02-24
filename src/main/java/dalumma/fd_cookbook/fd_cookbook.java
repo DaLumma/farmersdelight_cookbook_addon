@@ -1,6 +1,5 @@
 package dalumma.fd_cookbook;
 
-import dalumma.fd_cookbook.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -23,7 +22,7 @@ public class fd_cookbook
         bus.addListener(this::setup);
 
         ItemInit.Items.register(bus);
-        BlockInit.BLOCKS.register(bus);
+//        BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

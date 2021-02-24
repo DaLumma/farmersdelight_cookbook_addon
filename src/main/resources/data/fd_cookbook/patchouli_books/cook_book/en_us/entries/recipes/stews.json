@@ -61,7 +61,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x8",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     },
     {
       "type": "cooking_pot",
@@ -74,7 +74,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x8",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     },
     {
       "type": "cooking_pot",
@@ -86,7 +86,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x9",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     },
     {
       "type": "cooking_pot",
@@ -99,7 +99,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x9",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     },
     {
       "type": "cooking_pot",
@@ -112,7 +112,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x9",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     },
     {
       "type": "cooking_pot",
@@ -125,7 +125,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x8",
-      "effect": "Comfort(4:00)"
+      "effect": "$(9)Comfort$()(4:00)"
     }
   ]
 }

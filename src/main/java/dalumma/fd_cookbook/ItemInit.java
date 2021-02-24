@@ -1,5 +1,6 @@
 package dalumma.fd_cookbook;
 
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Rarity;
@@ -15,4 +16,8 @@ public class ItemInit {
             .group(ItemGroup.MISC)
             .maxStackSize(1)
             .rarity(Rarity.COMMON)));
+
+    //Block Items
+    public static final RegistryObject<BlockItem> cookbook_block = Items.register("cookbook_block", () -> new BlockItem(BlockInit.COOKBOOK_BLOCK.get(), new Item.Properties()
+            .group(ItemGroup.MISC)));
 }

@@ -18,16 +18,14 @@
       "effect": "When fed to a Dog:$(br)$(li)Speed(5:00)$(br)$(li)Strength(5:00)$(br)$(li)Resistance(5:00)"
     },
     {
-      "type": "crafting_table",
+      "type": "crafting_table_nofood",
       "foodname": "Horse Food",
       "item1": "farmersdelight:rice_bale,minecraft:hay_block",
       "item2": "minecraft:apple,",
       "item4": "minecraft:apple",
       "item5": "minecraft:golden_carrot",
       "finalitem": "farmersdelight",
-      "hunger_amount": "x5",
-      "saturation_amount": "x6",
-      "effect": "When fed to a tamed mount:$(br)$(li)Speed II(5:00)$(br)$(li)Jump Boost(5:00)"
+      "info": "When fed to a tamed mount:$(br)$(li)Speed II(5:00)$(br)$(li)Jump Boost(5:00)"
     }
   ]
 }

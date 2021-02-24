@@ -23,6 +23,7 @@ public class fd_cookbook
         bus.addListener(this::setup);
 
         ItemInit.Items.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

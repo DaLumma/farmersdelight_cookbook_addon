@@ -5,17 +5,27 @@
   "sortnum": "7",
   "pages": [
     {
-      "type": "cooking_pot",
-      "foodname": "Rabbit Stew",
-      "item1": "minecraft:baked_potato",
-      "item2": "minecraft:rabbit,minecraft:cooked_rabbit",
-      "item3": "minecraft:carrot",
-      "item4": "minecraft:red_mushroom,minecraft:brown_mushroom",
-      "finalitem": "minecraft:rabbit_stew",
+      "type": "crafting_table_nofood",
+      "foodname": "Milk Bottle",
+      "item1": "minecraft:milk_bucket",
+      "item2": "minecraft:glass_bottle",
+      "item4": "minecraft:glass_bottle",
+      "item5": "minecraft:glass_bottle",
+      "finalitem": "farmersdelight:milk_bottle",
+      "amount": "3",
       "container": "minecraft:bowl",
-      "hunger_amount": "x5",
-      "saturation_amount": "x6",
-      "effect": "none"
+      "info": "none"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Hot Cocoa",
+      "item1": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item2": "minecraft:sugar",
+      "item3": "minecraft:cocoa_beans",
+      "item4": "minecraft:cocoa_beans",
+      "finalitem": "farmersdelight:hot_cocoa",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)Removes every negative effect.$()"
     }
   ]
 }

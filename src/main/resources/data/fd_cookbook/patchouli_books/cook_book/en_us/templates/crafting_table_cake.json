@@ -13,7 +13,7 @@
     },
     {
       "type": "image",
-      "image": "fd_cookbook:textures/gui/crafting_table_recipe.png",
+      "image": "fd_cookbook:textures/gui/crafting_table_cake_recipe.png",
       "x": 7,
       "y": 13,
       "width": 128,
@@ -79,13 +79,13 @@
       "type": "item",
       "item": "#finalitem",
       "x": 85,
-      "y": 33
+      "y": 26
     },
     {
-      "type": "text",
-      "text": "#amount",
-      "x": 97,
-      "y": 45
+      "type": "item",
+      "item": "#slice",
+      "x": 85,
+      "y": 51
     },
     {
       "type": "separator",

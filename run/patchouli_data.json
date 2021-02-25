@@ -1,0 +1,59 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "fd_cookbook:cook_book": {
+      "viewedEntries": [
+        "fd_cookbook:basics/new_crops",
+        "fd_cookbook:basics/wild_crops",
+        "fd_cookbook:cooking_pot/cooking_pot",
+        "fd_cookbook:recipes/rabbit_stew",
+        "fd_cookbook:recipes/animal_foods",
+        "fd_cookbook:recipes/drinks",
+        "fd_cookbook:recipes/stews",
+        "fd_cookbook:recipes/salads",
+        "fd_cookbook:recipes/noodles",
+        "fd_cookbook:recipes/sandwitchs",
+        "fd_cookbook:recipes/feasts",
+        "fd_cookbook:recipes/sweets",
+        "fd_cookbook:recipes/misc",
+        "fd_cookbook:recipes/drink",
+        "fd_cookbook:basics/cutting_board"
+      ],
+      "bookmarks": [
+        {
+          "entry": "fd_cookbook:cooking_pot/cooking_pot",
+          "page": 0
+        }
+      ],
+      "history": [
+        "fd_cookbook:basics/cutting_board",
+        "fd_cookbook:recipes/stews",
+        "fd_cookbook:recipes/noodles",
+        "fd_cookbook:recipes/salads",
+        "fd_cookbook:basics/wild_crops",
+        "fd_cookbook:recipes/feasts",
+        "fd_cookbook:basics/new_crops",
+        "fd_cookbook:recipes/drink",
+        "fd_cookbook:recipes/sandwitchs",
+        "fd_cookbook:recipes/sweets",
+        "fd_cookbook:recipes/misc",
+        "fd_cookbook:recipes/animal_foods",
+        "fd_cookbook:recipes/drinks"
+      ],
+      "completedManualQuests": []
+    },
+    "fd_cookbook:testbook2": {
+      "viewedEntries": [
+        "fd_cookbook:intro/smelttest",
+        "fd_cookbook:intro/preface"
+      ],
+      "bookmarks": [],
+      "history": [
+        "fd_cookbook:intro/smelttest",
+        "fd_cookbook:intro/preface"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

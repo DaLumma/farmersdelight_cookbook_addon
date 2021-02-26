@@ -24,7 +24,7 @@
     {
       "type": "text",
       "title": "Enchantments",
-      "text": "Knifes be Enchanted as follows:$(br)Sharpness, Smite, Bane of Arthropods, Knockback, Fire Aspect, Looting, Efficiency, Unbreaking and Mending$(br)But there is 1 new Enchantment called $(l)Backstabbing$() it increases the damage when striking targets from behind by$(br)$(li)lvl 1: 1,4$(li)lvl 2: 1,8$(li)lvl 3: 2,2"
+      "text": "It can be Enchanted with:$(br)Sharpness, Smite, Bane of Arthropods, Knockback, Fire Aspect, Looting, Efficiency, Unbreaking and Mending$(br)But there is 1 new Enchantment called $(l)Backstabbing$() it increases the damage when striking targets from behind by$(br)$(li)lvl 1: 1,4$(li)lvl 2: 1,8$(li)lvl 3: 2,2"
     }
   ]
 }

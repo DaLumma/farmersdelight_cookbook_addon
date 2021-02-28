@@ -1,29 +1,29 @@
-modLoader="javafml" #mandatory
-loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-license="All rights reserved"
-issueTrackerURL="http://my.issue.tracker/" #optional
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT License"
+issueTrackerURL="https://github.com/DaLumma/farmersdelight_cookbook_addon/issues"
 
-[[mods]] #mandatory
-    modId="fd_cookbook" #mandatory
-    version="1.0" #mandatory
-    displayName="Farmers Delight Cookbook" #mandatory
-    #updateJSONURL="http://myurl.me/" #optional
-    displayURL="https://github.com/DaLumma" #optional
-    #logoFile="fd_cookbook.png" #optional
-    credits="Thanks to Vectorwing for making Farmers Delight" #optional
-    authors="DaLumma" #optional
-    description="This is my first real mod that adds a Cookbook to Farmers Delight"
-[[dependencies.fd_cookbook]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[35,)" #mandatory
+[[mods]]
+    modId="fd_cookbook"
+    version="1.0"
+    displayName="Farmers Delight Cookbook"
+    displayURL="https://github.com/DaLumma"
+    logoFile="logo.png"
+    credits="Thanks to Vectorwing for making Farmers Delight"
+    authors="DaLumma"
+    description="This is a mod that adds a Cookbook to Farmers Delight"
+
+[[dependencies.fd_cookbook]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.fd_cookbook]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.4,1.17)"
+    versionRange="[1.16.4,)"
     ordering="NONE"
     side="BOTH"
 

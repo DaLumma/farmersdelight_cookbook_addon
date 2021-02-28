@@ -5,16 +5,14 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
     modId="fd_cookbook" #mandatory
-    version="${Version}" #mandatory
+    version="1.0" #mandatory
     displayName="Farmers Delight Cookbook" #mandatory
     #updateJSONURL="http://myurl.me/" #optional
     displayURL="https://github.com/DaLumma" #optional
     #logoFile="fd_cookbook.png" #optional
     credits="Thanks to Vectorwing for making Farmers Delight" #optional
     authors="DaLumma" #optional
-    description='''
-This is my first real mod that adds a Cookbook to Farmers Delight
-'''
+    description="This is my first real mod that adds a Cookbook to Farmers Delight"
 [[dependencies.fd_cookbook]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
@@ -29,15 +27,15 @@ This is my first real mod that adds a Cookbook to Farmers Delight
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.botania]]
+[[dependencies.fd_cookbook]]
     modId="patchouli"
     mandatory=true
     versionRange="[1.16.4-50,)"
     side="BOTH"
 
-#[[dependencies.fd_cookbook]]
-#    modId = "farmersdelight"
-#    mandatory = true
-#    versionRange = "[1.16.3-0.3.2,)"
-#    ordering = "AFTER"
-#    side = "BOTH"
+[[dependencies.fd_cookbook]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.16.3-0.3.2,)"
+    ordering = "AFTER"
+    side = "BOTH"

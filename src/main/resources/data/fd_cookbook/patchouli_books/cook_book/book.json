@@ -3,6 +3,7 @@
 	"subtitle": "by Dalumma",
 	"use_blocky_font": true,
 	"show_progress": false,
+	"nameplate_color ":"",
 	"book_texture": "fd_cookbook:textures/gui/cookbook.png",
 	"filler_texture": "fd_cookbook:textures/gui/page_filler.png",
 	"dont_generate_book": true,

@@ -1,5 +1,5 @@
 {
-	"landing_text": "This Book Will hopefully Explain everything you should know about FarmersDelight, if you have further questions please visit the $(l:https://discord.gg/eFsz5SK)Discord Server$(). And if you find any Typos or bad grammar please Dm me on Discord \u00A79DaLumma#5195.",
+	"landing_text": "fd_cookbook.cook_book.landing_text",
 	"subtitle": "by Dalumma",
 	"use_blocky_font": true,
 	"show_progress": false,

@@ -1,0 +1,61 @@
+{
+  "name": "Miscellaneous",
+  "icon": "farmersdelight:steak_and_potatoes",
+  "category": "recipes",
+  "sortnum": "7",
+  "pages": [
+    {
+      "type": "crafting_table",
+      "foodname": "Steak and Potatoes",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:cooked_beef",
+      "item3": "minecraft:bowl",
+      "item4": "farmersdelight:onion",
+      "item5": "farmersdelight:cooked_rice",
+      "finalitem": "farmersdelight:steak_and_potatoes",
+      "hunger_amount": "x6",
+      "saturation_amount": "x9,5",
+      "effect": "$(#FFB100)Nourished$()(4:00)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Barbeque on a stick",
+      "item1": "farmersdelight:tomato",
+      "item2": "farmersdelight:onion",
+      "item3": "minecraft:cooked_beef",
+      "item4": "minecraft:cooked_chicken",
+      "item5": "minecraft:stick",
+      "item6": "minecraft:stick",
+      "finalitem": "farmersdelight:barbecue_stick",
+      "amount": "2",
+      "hunger_amount": "x4",
+      "saturation_amount": "x7,5",
+      "effect": "none"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Shepherd's Pie",
+      "item1": "minecraft:mutton",
+      "item2": "minecraft:baked_potato",
+      "item3": "farmersdelight:onion",
+      "item4": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "finalitem": "farmersdelight:shepherds_pie",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x7",
+      "saturation_amount": "x13",
+      "effect": "$(#FFB100)Nourished$()(8:00)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Stuffed Potato",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:cooked_beef,farmersdelight:beef_patty",
+      "item4": "minecraft:carrot",
+      "item5": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "finalitem": "farmersdelight:stuffed_potato",
+      "hunger_amount": "x5",
+      "saturation_amount": "x7",
+      "effect": "none"
+    }
+  ]
+}

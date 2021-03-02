@@ -6,11 +6,13 @@
   "pages": [
     {
       "type": "cutting_board_page",
+      "title": "Cutting Board",
+      "crafting_recipe": "Crafting Recipe",
       "info": "On the Cutting board you can cut certain things with a $(l:basics/knife)Knife$() or an Axe, what to use depends on the recipe."
     },
     {
       "type": "cutting_board_recipe",
-      "name1": "Minces Beef",
+      "name1": "Minced Beef",
       "result_type1": "fd_cookbook:textures/gui/cutting_board.png",
       "tool1": "fd_cookbook:textures/gui/cutting_board_knife.png",
       "item1": "minecraft:beef",

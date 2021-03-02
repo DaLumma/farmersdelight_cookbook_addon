@@ -15,7 +15,7 @@
       "finalitem": "farmersdelight:steak_and_potatoes",
       "hunger_amount": "x6",
       "saturation_amount": "x9,5",
-      "effect": "$(#FFB100)Nourished$()(4:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)"
     },
     {
       "type": "crafting_table",
@@ -43,7 +43,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "crafting_table",

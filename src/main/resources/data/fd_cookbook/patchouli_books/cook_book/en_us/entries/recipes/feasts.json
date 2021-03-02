@@ -25,7 +25,7 @@
       "feast_meal": "farmersdelight:roast_chicken",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "crafting_table_feast",
@@ -43,7 +43,7 @@
       "feast_meal": "farmersdelight:honey_glazed_ham",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(#FFB100)Nourished$()(8:00)$(br)$(b)Absorbtion$()(1:30)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)$(br)$(b)Absorbtion$()(1:30)"
     },
     {
       "type": "cooking_pot_feast",
@@ -59,7 +59,7 @@
       "feast_meal": "farmersdelight:stuffed_pumpkin",
       "hunger_amount": "x6",
       "saturation_amount": "x9,5",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     }
   ]
 }

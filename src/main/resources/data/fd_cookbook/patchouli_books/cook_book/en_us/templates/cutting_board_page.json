@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "header",
-      "text": "Cutting Board",
+      "text": "#title",
       "x": -1,
       "y": 0
     },
@@ -34,7 +34,7 @@
     },
     {
       "type": "header",
-      "text": "Crafting Recipe",
+      "text": "#crafting_recipe",
       "x": -1,
       "y": 75
     },

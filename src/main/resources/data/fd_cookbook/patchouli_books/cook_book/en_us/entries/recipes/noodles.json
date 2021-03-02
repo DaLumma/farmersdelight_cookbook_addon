@@ -23,7 +23,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x3",
       "saturation_amount": "x2,5",
-      "effect": "$(9)Comfort$()(1:00)"
+      "effect": "$(l:basics/effects)$(9)Comfort$()(1:00)"
     },
     {
       "type": "cooking_pot",
@@ -37,7 +37,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "cooking_pot",
@@ -50,7 +50,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "cooking_pot",
@@ -62,7 +62,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x6",
       "saturation_amount": "x11",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "cooking_pot",
@@ -74,7 +74,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x6",
       "saturation_amount": "x11",
-      "effect": "$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
     },
     {
       "type": "cooking_pot",
@@ -87,7 +87,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x5",
       "saturation_amount": "x8",
-      "effect": "$(#FFB100)Nourished$()(4:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)"
     },
     {
       "type": "cooking_pot",

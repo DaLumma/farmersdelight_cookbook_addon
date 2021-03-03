@@ -6,12 +6,12 @@
     "pages": [
       {
         "type": "nourished",
-        "title": "$(#FFB100)Nourished",
+        "title": "Nourished",
         "text": "When you have the Nourished effect your Saturation won't go don through sprinting jumping or attacking, regenerating health will still consume Saturation."
       },
       {
         "type": "comfort",
-        "title": "$(9)Comfort",
+        "title": "Comfort",
         "text": "When you have the Comfort effect you will be immune to cold(Slowness) and sickness(Hunger and Weakness). When you grant the effect these negative effects will vanish and you can't grant them until the effect goes away."
       }
     ]

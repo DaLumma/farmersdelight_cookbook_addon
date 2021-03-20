@@ -2,7 +2,7 @@
     "name": "Ropes",
     "icon": "farmersdelight:rope",
     "category": "basics",
-    "sortnum": "6",
+    "sortnum": "7",
     "pages": [
       {
         "type": "crafting_table_nofood",

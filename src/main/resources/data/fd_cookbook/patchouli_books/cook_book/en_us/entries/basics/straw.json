@@ -2,7 +2,7 @@
     "name": "Straw",
     "icon": "farmersdelight:straw",
     "category": "basics",
-    "sortnum": "5",
+    "sortnum": "6",
     "pages": [
       {
         "type": "text",

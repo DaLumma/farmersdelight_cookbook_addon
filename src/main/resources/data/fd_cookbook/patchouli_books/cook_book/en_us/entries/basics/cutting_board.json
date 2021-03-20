@@ -2,7 +2,7 @@
   "name": "Cutting Board",
   "icon": "farmersdelight:cutting_board",
   "category": "basics",
-  "sortnum": "4",
+  "sortnum": "5",
   "pages": [
     {
       "type": "cutting_board_page",

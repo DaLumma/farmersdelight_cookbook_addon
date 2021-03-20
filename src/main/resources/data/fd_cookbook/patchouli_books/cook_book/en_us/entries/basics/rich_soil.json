@@ -2,7 +2,7 @@
     "name": "Rich Soil",
     "icon": "farmersdelight:rich_soil",
     "category": "basics",
-    "sortnum": "7",
+    "sortnum": "8",
     "pages": [
       {
         "type": "text",

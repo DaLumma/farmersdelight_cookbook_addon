@@ -2,7 +2,7 @@
     "name": "Tatami Mats",
     "icon": "farmersdelight:full_tatami_mat",
     "category": "basics",
-    "sortnum": "9",
+    "sortnum": "10",
     "pages": [
       {
         "type": "crafting_table_nofood",

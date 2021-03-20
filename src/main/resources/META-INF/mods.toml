@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/DaLumma/farmersdelight_cookbook_addon/issues
 
 [[mods]]
     modId="fd_cookbook"
-    version="1.2"
+    version="1.3"
     displayName="Farmers Delight Cookbook"
     displayURL="https://github.com/DaLumma"
     logoFile="logo.png"

@@ -10,7 +10,7 @@
       "item2": "minecraft:flint,minecraft:iron_ingot,minecraft:gold_ingot,minecraft:diamond",
       "item4": "minecraft:stick",
       "finalitem": "farmersdelight:flint_knife,farmersdelight:iron_knife,farmersdelight:golden_knife,farmersdelight:diamond_knife",
-      "info": "Knife's are a new Tool/Weapon. They are available in all material tiers except Wood and Stone witch is replaced by Flint."
+      "info": "Knife's are a new Tool/Weapon. They're available in all material tiers except Wood and Stone which is replaced by Flint."
     },
     {
       "type": "text",

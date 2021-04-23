@@ -7,7 +7,7 @@
       {
         "type": "nourished",
         "title": "Nourished",
-        "text": "When you have the Nourished effect your Saturation won't go don through sprinting jumping or attacking, regenerating health will still consume Saturation."
+        "text": "When you have the Nourished effect your Saturation wont go down through sprinting jumping or attacking, regenerating health will still consume Saturation."
       },
       {
         "type": "comfort",

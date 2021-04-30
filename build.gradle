@@ -87,30 +87,24 @@
         // The userdev artifact is a special name and will get all sorts of transformations applied to it.
         minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
 
-        // You may put jars on which you depend on in ./libs or you may define them like so..
-        // compile "some.group:artifact:version:classifier"
-        // compile "some.group:artifact:version"
-
-        // Real examples
-        // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-        // compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-
-        // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
-        // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-
-        // These dependencies get remapped to your current MCP mappings
-        // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-
-        // For more info...
-        // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-        // http://www.gradle.org/docs/current/userguide/dependency_management.html
+        implementation fg.deobf("curse.maven:fd-398521:3272000")
 
         runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50")
         compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50:api")
+
+        runtimeOnly fg.deobf("mezz.jei:jei-1.16.2:7.3.2.25")
     }
 
     repositories {
-        maven { url 'https://maven.blamejared.com' }
+        maven {
+            url = 'https://maven.blamejared.com'
+        }
+        maven {
+            url = "https://dvs1.progwml6.com/files/maven/"
+        }
+        maven {
+            url = "https://www.cursemaven.com"
+        }
     }
 
     // Example for how to get properties into the manifest for reading by the runtime..
@@ -125,24 +119,5 @@
                 "Implementation-Vendor" :"fd_cookbooksareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
             ])
-        }
-    }
-
-    // Example configuration to allow publishing using the maven-publish task
-    // This is the preferred method to reobfuscate your jar file
-    jar.finalizedBy('reobfJar')
-    // However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-    //publish.dependsOn('reobfJar')
-
-    publishing {
-        publications {
-            mavenJava(MavenPublication) {
-                artifact jar
-            }
-        }
-        repositories {
-            maven {
-                url "file:///${project.projectDir}/mcmodsrepo"
-            }
         }
     }

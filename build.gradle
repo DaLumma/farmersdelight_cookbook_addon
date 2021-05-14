@@ -87,7 +87,9 @@
         // The userdev artifact is a special name and will get all sorts of transformations applied to it.
         minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
 
-        implementation fg.deobf("curse.maven:fd-398521:3295974")
+        implementation fg.deobf("curse.maven:fd-398521:3272000")
+
+        implementation fg.deobf("curse.maven:appleskin-248787:3035787")
 
         runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50")
         compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-50:api")

@@ -33,19 +33,6 @@
       "effect": "none"
     },
     {
-      "type": "cooking_pot",
-      "foodname": "Shepherd's Pie",
-      "item1": "minecraft:mutton",
-      "item2": "minecraft:baked_potato",
-      "item3": "farmersdelight:onion",
-      "item4": "minecraft:milk_bucket,farmersdelight:milk_bottle",
-      "finalitem": "farmersdelight:shepherds_pie",
-      "container": "minecraft:bowl",
-      "hunger_amount": "x7",
-      "saturation_amount": "x13",
-      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
-    },
-    {
       "type": "crafting_table",
       "foodname": "Stuffed Potato",
       "item1": "minecraft:baked_potato",
@@ -55,6 +42,16 @@
       "finalitem": "farmersdelight:stuffed_potato",
       "hunger_amount": "x5",
       "saturation_amount": "x7",
+      "effect": "none"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Cabbage Rolls",
+      "item1": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item2": "minecraft:beetroot,minecraft:potato,minecraft:carrot,minecraft:brown_mushroom,minecraft:red_mushroom,minecraft:egg,minecraft:mutton,farmersdelight:mutton_chops,minecraft:beef,farmersdelight:minced_beef,minecraft:chicken,farmersdelight:chicken_cuts,minecraft:porkchop,farmersdelight:bacon,minecraft:cod,minecraft:salmon,minecraft:tropical_fish,farmersdelight:cod_slice,farmersdelight:salmon_slice",
+      "finalitem": "farmersdelight:cabbage_rolls",
+      "hunger_amount": "x3",
+      "saturation_amount": "x3",
       "effect": "none"
     }
   ]

@@ -68,7 +68,7 @@
       "foodname": "Vegetable Soup",
       "item1": "minecraft:carrot",
       "item2": "minecraft:potato",
-      "item3": "minecraft_beetroot",
+      "item3": "minecraft:beetroot",
       "item4": "farmersdelight:cabbage_leaf,farmersdelight:cabbage",
       "finalitem": "farmersdelight:vegetable_soup",
       "container": "minecraft:bowl",

@@ -25,7 +25,7 @@
       "feast_meal": "farmersdelight:roast_chicken",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)"
     },
     {
       "type": "crafting_table_feast",
@@ -43,7 +43,7 @@
       "feast_meal": "farmersdelight:honey_glazed_ham",
       "hunger_amount": "x7",
       "saturation_amount": "x13",
-      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)$(br)$(b)Absorbtion$()(1:30)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)$(br)"
     },
     {
       "type": "cooking_pot_feast",
@@ -59,7 +59,26 @@
       "feast_meal": "farmersdelight:stuffed_pumpkin",
       "hunger_amount": "x6",
       "saturation_amount": "x9,5",
-      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(8:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)"
+    },
+    {
+      "type": "crafting_table_feast",
+      "foodname": "Shepherd's Pie",
+      "item1": "minecraft:baked_potato",
+      "item2": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item3": "minecraft:baked_potato",
+      "item4": "minecraft:cooked_mutton,farmersdelight:cooked_mutton_chops",
+      "item5": "minecraft:cooked_mutton,farmersdelight:cooked_mutton_chops",
+      "item6": "minecraft:cooked_mutton,farmersdelight:cooked_mutton_chops",
+      "item7": "farmersdelight:onion",
+      "item8": "minecraft:bowl",
+      "item9": "farmersdelight:onion",
+      "container": "minecraft:pumpkin",
+      "feast_block": "farmersdelight:shepherds_pie_block",
+      "feast_meal": "farmersdelight:shepherds_pie",
+      "hunger_amount": "x6,5",
+      "saturation_amount": "x13",
+      "effect": "$(l:basics/effects)$(#FFB100)Nourished$()(4:00)"
     }
   ]
 }

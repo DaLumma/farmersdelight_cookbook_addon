@@ -7,7 +7,7 @@
     {
       "type": "crafting_table",
       "foodname": "Raw Pasta",
-      "item1": "minecraft:egg,minecraft:water_bucket",
+      "item1": "minecraft:egg",
       "item2": "minecraft:wheat",
       "item4": "minecraft:wheat",
       "finalitem": "farmersdelight:raw_pasta",

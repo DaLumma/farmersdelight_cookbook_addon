@@ -1,3 +1,3 @@
-# farmersdelight_cookbook_addon
+# Farmersdelight Cookbook Addon
 <img src="https://raw.githubusercontent.com/DaLumma/farmersdelight_cookbook_addon/main/src/main/resources/logo.png" width="50%">
- This mod adds a Guide/Cook book to Farmers Delight
+ This mod adds a Guide/Cook book to Farmers Delight using Patchiouli
